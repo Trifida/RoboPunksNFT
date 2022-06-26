@@ -22,13 +22,13 @@ const NavBar = ({ accounts, setAccounts }) => {
     <Flex justify="space-between" align="center" padding="30px">
       {/* Left Side -- Social Media Icons */}
       <Flex justify="space-around" width="40%" padding="0 75px">
-        <Link href="https://www.facebook.com">
+        <Link href="https://www.facebook.com/yangyang818">
           <Image src={Facebook} boxSize="42px" margin="0 15px"></Image>
         </Link>
-        <Link href="https://www.twitter.com">
+        <Link href="https://twitter.com/Archie_818">
           <Image src={Twitter} boxSize="42px" margin="0 15px"></Image>
         </Link>
-        <Link href="https://www.gmail.com">
+        <Link href="mailto:I@double-yang.com">
           <Image src={Email} boxSize="42px" margin="0 15px"></Image>
         </Link>
       </Flex>
